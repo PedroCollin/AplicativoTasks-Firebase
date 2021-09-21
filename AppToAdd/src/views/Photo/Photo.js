@@ -21,7 +21,7 @@ export default class Photo extends React.Component {
 
 
     render() {
-        const voltar = () => {
+        const voltar = ({}) => {
             navigation.navigate('Inicial')
         };
         const photo = this.state;
