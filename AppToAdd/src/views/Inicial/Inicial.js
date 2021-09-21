@@ -34,7 +34,7 @@ function Inicial({ navigation }) {
                 </TouchableOpacity>
 
                 <TouchableOpacity onPress={abrirItem}>
-                    <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/livros.jpg')}>
+                    <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/champ.jpg')}>
                         <Text style={estiloInicial.botaoTexto}>Fotos</Text>                    
                     </ImageBackground>
                 </TouchableOpacity> 
