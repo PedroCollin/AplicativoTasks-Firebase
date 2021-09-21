@@ -5,7 +5,7 @@ import Item from '../../views/Item/Item';
 import Photo from '../../views/Photo/Photo';
 import { MaterialIcons } from '@expo/vector-icons';
 import RotasDrawer from '../rotasDrawer/RotasDrawer';
-import Photo from "../../views/Photo/Photo";
+
 
 const Tab = createBottomTabNavigator();
 
