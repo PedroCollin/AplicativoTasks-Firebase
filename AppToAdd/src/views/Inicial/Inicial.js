@@ -19,7 +19,7 @@ function Inicial({ navigation }) {
     }
     
     const abrirItem = () => {
-        navigation.navigate('Item')
+        navigation.navigate('Photo')
     }
     
     return (
@@ -33,11 +33,11 @@ function Inicial({ navigation }) {
                     </ImageBackground>
                 </TouchableOpacity>
 
-                {/* <TouchableOpacity onPress={abrirItem}>
+                <TouchableOpacity onPress={abrirItem}>
                     <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/livros.jpg')}>
-                        <Text style={estiloInicial.botaoTexto}>Item</Text>                    
+                        <Text style={estiloInicial.botaoTexto}>Fotos</Text>                    
                     </ImageBackground>
-                </TouchableOpacity> */}
+                </TouchableOpacity> 
 
             </ImageBackground>
         </View>
