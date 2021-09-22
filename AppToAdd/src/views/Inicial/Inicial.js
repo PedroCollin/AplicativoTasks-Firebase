@@ -18,9 +18,9 @@ function Inicial({ navigation }) {
         navigation.navigate('Colecao')
     }
     
-    const abrirItem = () => {
-        navigation.navigate('Photo')
-    }
+    // const abrirItem = () => {
+    //     navigation.navigate('Photo')
+    // }
     
     return (
         <View style={estiloInicial.container}>
@@ -33,11 +33,11 @@ function Inicial({ navigation }) {
                     </ImageBackground>
                 </TouchableOpacity>
 
-                <TouchableOpacity onPress={abrirItem}>
+                {/* <TouchableOpacity onPress={abrirItem}>
                     <ImageBackground style={estiloInicial.botaoBackground} source={require('../../../assets/imagens/champ.jpg')}>
                         <Text style={estiloInicial.botaoTexto}>Fotos</Text>                    
                     </ImageBackground>
-                </TouchableOpacity> 
+                </TouchableOpacity>  */}
 
             </ImageBackground>
         </View>

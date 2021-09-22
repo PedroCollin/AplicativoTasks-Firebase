@@ -2,7 +2,7 @@ import React from "react";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Colecao from '../../views/Colecao/Colecao';
 import Item from '../../views/Item/Item';
-import Photo from '../../views/Photo/Photo';
+// import Photo from '../../views/Photo/Photo';
 import { MaterialIcons } from '@expo/vector-icons';
 import RotasDrawer from '../rotasDrawer/RotasDrawer';
 
@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator();
 const icones = {
   Inicial: { name: 'home' },
   Colecao: { name: 'storage' },
-  Photo: { name: 'storage' },
+  // Photo: { name: 'storage' },
   Item: { name: 'done-all' }, 
 }
 
@@ -41,13 +41,13 @@ const RotasTab = () => {
           unmountOnBlur: true,
         }}
       />
-      <Tab.Screen 
+      {/* <Tab.Screen 
         name="Photo" 
         component={Photo}
         options={{
           unmountOnBlur: true,
         }}
-      />
+      /> */}
       <Tab.Screen 
         name="Colecao" 
         component={Colecao} 
